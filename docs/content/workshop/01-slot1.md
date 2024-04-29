@@ -227,6 +227,7 @@ Open the `TriageService` interface and add (if not already present) the followin
 
 ```java
 // Do not forget to add the following imports:
+// import io.smallrye.faulttolerance.api.RateLimit;
 // import org.eclipse.microprofile.faulttolerance.Fallback;
 // import org.eclipse.microprofile.faulttolerance.Retry;
 
